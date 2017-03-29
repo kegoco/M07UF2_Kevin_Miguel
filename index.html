@@ -39,124 +39,150 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
     <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+    <title>AppKM</title>
 </head>
 
 <body>
     <div class="app">
         <!-- Botón 01 -->
-      <div data-role="page" id="home">
-        <div data-role="header">
-              <h1>Single page</h1>
+      <div data-role="page" id="Llama">
+        <div data-role="header" style="background-color: cornflowerblue;">
+              <h1><b>CONTACTOS</b></h1>
         </div><!-- /header -->
         <div data-role="content">
             
-            <nav data-role="navbar">
-                    <ul>
-                        <li><a href="#home" class="ui-btn-active">Inicio</a></li>
-                        <li><a href="#history">Historia</a></li>
-                        <li><a href="#contact">Contacto</a></li>
-                    </ul>
-                </nav>
+            <div data-role="collapsible-set">
+                <div class="opciones" data-role="collapsible">
+                    <h3>Peter Parker</h3>
+                    <p><b>Telf:</b> 937 82 98 50</p>
+                    <p><b>Dirección:</b> C/ Spiderman</p>
+                    <p><b>GPS:</b> +64º56' 24,62" 43.12' 51.12</p>
+                    
+                    <nav data-role="navbar">
+                        <ul>
+                            <li><a href="#Llama" class="ui-btn-active">Llama</a></li> <!--class="ui-btn-active"-->
+                            <li><a href="#Más">Más</a></li>
+                            <li><a href="#Edit">Edit</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="opciones" data-role="collapsible">
+                    <h3>Clark Kent</h3>
+                    <p><b>Telf:</b> 977 34 92 80</p>
+                    <p><b>Dirección:</b> C/ Clarket</p>
+                    <p><b>GPS:</b> +64º12' 22,62" 13.12' 71.43</p>
+                    
+                    <nav data-role="navbar">
+                        <ul>
+                            <li><a href="#Llama" class="ui-btn-active">Llama</a></li>
+                            <li><a href="#Más">Más</a></li>
+                            <li><a href="#Edit">Edit</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="opciones" data-role="collapsible">
+                    <h3>Manolito Gafotas</h3>
+                    <p><b>Telf:</b> 917 42 92 30</p>
+                    <p><b>Dirección:</b> C/ Gafas de sol</p>
+                    <p><b>GPS:</b> +45º26' 14,22" 47.12' 71.43</p>
+                    
+                    <nav data-role="navbar">
+                        <ul>
+                            <li><a href="#Llama" class="ui-btn-active">Llama</a></li>
+                            <li><a href="#Más">Más</a></li>
+                            <li><a href="#Edit">Edit</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="opciones" data-role="collapsible">
+                    <h3>Santa Claus</h3>
+                    <p><b>Telf:</b> 984 34 56 78</p>
+                    <p><b>Dirección:</b> Joulupukin Pajakylà (Rovaniemi)</p>
+                    <p><b>GPS:</b> +66º32' 37,11" +25.50' 51.44</p>
+                    
+                    <nav data-role="navbar">
+                        <ul>
+                            <li><a href="#Llama" class="ui-btn-active">Llama</a></li>
+                            <li><a href="#Más">Más</a></li>
+                            <li><a href="#Edit">Edit</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="opciones" data-role="collapsible">
+                    <h3>Ororo Iqadi Monroe</h3>
+                    <p><b>Telf:</b> 925 99 59 18</p>
+                    <p><b>Dirección:</b> C/ Monroedisium</p>
+                    <p><b>GPS:</b> +55º22' 57,21" +65.50' 31.34</p>
+                    
+                    <nav data-role="navbar">
+                        <ul>
+                            <li><a href="#Llama" class="ui-btn-active">Llama</a></li>
+                            <li><a href="#Más">Más</a></li>
+                            <li><a href="#Edit">Edit</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="opciones" data-role="collapsible">
+                    <h3>Jean Grey</h3>
+                    <p><b>Telf:</b> 961 93 21 34</p>
+                    <p><b>Dirección:</b> C/ Grey Monkey</p>
+                    <p><b>GPS:</b> +56º21' 36,61" +25.54' 41.34</p>
+                    
+                    <nav data-role="navbar">
+                        <ul>
+                            <li><a href="#Llama" class="ui-btn-active">Llama</a></li>
+                            <li><a href="#Más">Más</a></li>
+                            <li><a href="#Edit">Edit</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="misBolas">
+                    <p><b>+</b></p>
+                </div>
+            </div>
             
-            <p>Inicio</p>
+            
+            
         </div><!-- /content -->
-        <div data-role="footer">
-                <h4>Footer content</h4>
-        </div><!-- /footer -->
 	   </div><!-- /page -->
+    
         
         
         
-        
-        
-        <!-- Botón 02 -->
-    <div data-role="page" id="history">
-        <div data-role="header">
-              <h1>Single page</h1>
+    <div data-role="page" id="Más">
+        <div data-role="header" style="background-color: cornflowerblue;">
+              <h1><b>MÁS -> Santa Claus</b></h1>
         </div><!-- /header -->
         <div data-role="content">
             
-            <nav data-role="navbar">
-                    <ul>
-                        <li><a href="#home">Inicio</a></li>
-                        <li><a href="#history" class="ui-btn-active">Historia</a></li>
-                        <li><a href="#contact">Contacto</a></li>
-                    </ul>
-                </nav>
+            <h3><b>Santa Claus</b></h3>
+            <p><b>Telf:</b> 984 34 56 78</p>
+            <p><b>Dirección:</b> Joulupukin Pajakylà (Rovaniemi)</p>
+            <p><b>GPS:</b> +66º32' 37,11" +25.50' 51.44</p>
+            <p><b>Website:</b> http://www.santaclausvillage.info/</p>
             
-            
-            <div class="ui-grid-a historia">
-              <div class="ui-block-a fecha" style="width:12%;">
-                  <p>22</p>
-                  <p>Marzo</p>
-                  <p>2017</p>
-              </div>
-              <div class="ui-block-b" style="width:88%;">
-                  <h3>Mi primer desarrollo</h3>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-            </div><!-- /grid-a -->
-            <div class="ui-grid-a">
-              <div class="ui-block-a fecha" style="width:12%;">
-                  <p>22</p>
-                  <p>Marzo</p>
-                  <p>2017</p>
-              </div>
-              <div class="ui-block-b" style="width:88%;">
-                  <h3>Mi primer desarrollo</h3>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-            </div><!-- /grid-a -->
-            <div class="ui-grid-a">
-              <div class="ui-block-a fecha" style="width:12%;">
-                  <p>22</p>
-                  <p>Marzo</p>
-                  <p>2017</p>
-              </div>
-              <div class="ui-block-b" style="width:88%;">
-                  <h3>Mi primer desarrollo</h3>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-            </div><!-- /grid-a -->
-        </div><!-- /content -->
-        <div data-role="footer">
-                <h4>Footer content</h4>
-        </div><!-- /footer -->
-	   </div><!-- /page -->
-        
-        
-        <!-- Botón 03 -->
-    <div data-role="page" id="contact">
-        <div data-role="header">
-              <h1>Single page</h1>
-        </div><!-- /header -->
-        <div data-role="content">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1588.150669251387!2d25.84500871637386!3d66.54361438473515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x442b4e7e543e9979%3A0xd7f9b9e4341d7ed3!2sSanta+Claus+Village!5e0!3m2!1ses!2ses!4v1490782257814" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
             
             <nav data-role="navbar">
-                    <ul>
-                        <li><a href="#home">Inicio</a></li>
-                        <li><a href="#history">Historia</a></li>
-                        <li><a href="#contact" class="ui-btn-active">Contacto</a></li>
-                    </ul>
+                <ul>
+                    <li><a href="https://www.google.es/maps/place/Santa+Claus+Village/@66.5436144,25.8450087,17z/data=!3m1!4b1!4m5!3m4!1s0x442b4e7e543e9979:0xd7f9b9e4341d7ed3!8m2!3d66.5436144!4d25.8471974">Abrir en Maps</a></li>
+                    <li><a href="#Llama">Atrás</a></li>
+                </ul>
             </nav>
             
-            <iframe id="mapita" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.9722641157555!2d1.994386750582383!3d41.56984487914598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a492a496788a71%3A0xbf024c1b19dff6ab!2sInstitut+Nicolau+Cop%C3%A8rnic!5e0!3m2!1ses!2ses!4v1490086194601" width="750" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <ul id="direccion">
-                <li>Desarrollos blacks</li>
-                <li>C/ negra</li>
-                <li>Terrassa - 08225</li>
-            </ul>
         </div><!-- /content -->
         <div data-role="footer">
                 <h4>Footer content</h4>
         </div><!-- /footer -->
 	   </div><!-- /page -->
+        
     </div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.mobile.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
         app.initialize();
